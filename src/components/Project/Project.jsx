@@ -117,7 +117,7 @@ export default function project(){
                     The site is fully responsive, ensuring an optimal user experience. Through this project, I demonstrated my 
                     proficiency in web development including HTML, CSS, JavaScript,
                     and React.js, and my ability to create engaging and user-friendly experiences. </p>
-                    <button className="card-btn"><a href ="https://simonsaygames.netlify.app" target="_blank"><img class="card-web" src="share.png"/></a></button>
+                    <button className="card-btn"><a href ="https://devanshugupta24.netlify.app" target="_blank"><img class="card-web" src="share.png"/></a></button>
                 </div>
             </div>
   
