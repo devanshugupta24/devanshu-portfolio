@@ -1,0 +1,222 @@
+/*.skillpic{
+    width:150px;
+    height:150px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+
+.scroller{
+    max-width:1000px;
+    outline:3px solid white;
+
+
+}
+
+
+.scroller__inner{
+    padding-block:1rem;
+    display:flex;
+    flex-wrap: wrap;
+    gap:4rem;
+}
+
+.scroller[data-animated="true"]{
+
+    overflow:hidden;
+    -webkit-mask:
+    linear-gradient(90deg,
+    transparent,
+    cyan 45%,
+    cyan 55%,
+    transparent
+    );
+    mask:linear-gradient(90deg,transparent,cyan 45%, cyan 55%,transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner{
+    width:max-content;
+    flex-wrap:nowrap;
+    animation:
+    scroll 
+    var(--_animation-duration,100s) 
+    var(--_animation-direction,forwards) linear infinite;
+}
+
+.scroller[data-direction="right"]{
+    --_animation-direction:reverse;
+}
+
+@keyframes scroll{
+    to{
+        transform:translate(calc(-50%));
+    }
+}
+*/
+
+.skillTitle{
+    margin-top:90px;
+    color:white;
+    text-align: center;
+    text-decoration: underline 2px cyan;
+    text-underline-offset: 5px;
+    font-family: "Roboto Slab", serif;
+}
+
+.skilldesc{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+}
+
+
+
+.slider{
+    margin-top:40px;
+    width:600px;
+    height: 290px;
+    border-radius: 10px;
+    margin-left: 310px;
+    overflow: hidden;
+    border:8px solid rgb(18, 18, 85);
+    background-color: rgb(0, 0, 25);
+    
+}
+
+.slider:hover{
+    box-shadow: 0px 0px 18px cyan;
+   
+}
+
+
+.slides{
+    width: 500%;
+    height: 450px;
+    display: flex;
+    margin-left: 60px;
+    
+
+}
+
+.slides input{
+    display: none;
+
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    width:20%;    
+    transition: 2s;
+}
+
+.slide img{
+    width: 250px;
+    height:240px;
+    margin-top: 17px;
+    padding-top: 10px;
+    border-radius: 10px;
+   
+}
+
+.skillName{
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 120px;
+    margin-left: 30px;
+    
+}
+
+
+.navigation-manual{
+    display: flex;
+    position:absolute;
+    width:210px;
+    margin-top: -135px;
+    margin-left:187px;
+    padding: 0px 8px;
+
+
+
+}
+
+.manual-btn{
+    border: 2px solid cyan;
+    padding:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 25px;
+}
+
+.manual-btn:hover{
+    background:cyan;
+}
+
+#radio1:checked~.first{
+    margin-left:0;
+}
+#radio2:checked~.first{
+    margin-left:-20%;
+}
+#radio3:checked~.first{
+    margin-left:-40%;
+}
+#radio4:checked~.first{
+    margin-left:-60%;
+}
+#radio5:checked~.first{
+    margin-left:-80%;
+}
+#radio6:checked~.first{
+    margin-left:-100%;
+}
+
+.navigation-auto{
+    position:absolute;
+    display: flex;
+    width:300px;
+    justify-content: center;
+    margin-top:315px;
+    margin-left: 90px;
+
+  background-color: rgb(0,0,25);
+}
+
+.navigation-auto div{
+    border: 2px solid cyan;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 25px;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1{
+    background:cyan;
+}
+#radio2:checked~.navigation-auto .auto-btn2{
+    background:cyan;
+}
+#radio3:checked~.navigation-auto .auto-btn3{
+    background:cyan;
+}
+#radio4:checked~.navigation-auto .auto-btn4{
+    background:cyan;
+}
+#radio5:checked~.navigation-auto .auto-btn5{
+    background:cyan;
+}
+#radio6:checked~.navigation-auto .auto-btn6{
+    background:cyan;
+}

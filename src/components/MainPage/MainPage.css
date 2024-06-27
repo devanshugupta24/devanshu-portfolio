@@ -1,0 +1,106 @@
+.mainpage{
+
+display: flex;
+justify-content: space-between;
+
+
+}
+.intro{
+    display:block;
+    margin-top: 150px;
+    margin-left:80px;
+
+
+}
+
+.info{
+    font-size:28px;
+    color:white;
+    font-family: "LXGW WenKai TC", cursive;
+    text-shadow: 0px 0px 5px white;
+    }
+
+.greet{
+    margin-top: 0;
+    color:white;
+    display:flex;
+    font-size: 42px;
+    font-family: "Roboto Slab", serif;
+
+}
+
+.name{
+    margin-left: 13px;
+    color:cyan;
+    font-size:42px;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:animation 3s steps(14) infinite;
+    border-right:3px solid cyan;
+    line-height: 50px; 
+    text-shadow: 0px 0px 5px cyan;
+    margin-top:2.5px;
+}
+
+
+
+@keyframes animation{
+    0%{
+        width:0ch;
+    }
+
+    45%{
+        width:14ch;
+    }
+
+    55%{
+        width:14ch;
+    }
+   
+    100%{
+        width:0ch;
+    }
+}
+
+.photo{
+    position: absolute;
+    width:330px;
+    height:330px;
+    box-shadow: 0px 0px 18px rgb(82, 245, 245);
+    border-radius: 50%;
+    margin-left: 62%;
+    margin-top:8%;
+    transition: transform  0.2s ease;
+
+
+    
+}
+
+.photo:hover{
+    transform:scale(1.1);
+}
+
+.contacts{
+    position: absolute;
+    align-items: center;
+    margin-left: 65px;
+
+
+}
+.logo{
+    height:35px;
+    width:35px;
+    z-index: 1;
+    margin-top: 172%;
+    border-radius: 50%;   
+    margin-left: 15px;
+    transition: transform 0.2s ease;
+    box-shadow: 0px 0px 10px rgb(82, 245, 245);
+}
+
+.logo:hover{
+    box-shadow: 0px 0px 10px cyan;
+    transform: scale(1.15);
+}
+
+
