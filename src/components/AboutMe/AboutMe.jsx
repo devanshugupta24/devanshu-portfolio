@@ -6,7 +6,7 @@ export default function AboutMe(){
      return(
         <div className="aboutme">
             <div className="leftphoto">
-                <img className="pic"src="public\dev image.jpeg"></img>
+                <img className="pic"src="dev image.jpeg"></img>
             </div>
             <div className="content">
             <h1 className="title">About Me</h1>

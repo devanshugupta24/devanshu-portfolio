@@ -16,7 +16,7 @@ export default function MainPage(){
    </div>
          
 
-           <img className="photo" src="public\photo dev.jpeg"></img>
+           <img className="photo" src="photo dev.jpeg"></img>
 
     </div>
         </>
