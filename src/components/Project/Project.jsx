@@ -112,7 +112,7 @@ export default function project(){
                 <img src="portfoliopic.png" className="card-img" alt=""></img>
                 <div className="card-body card-body-text">
                     <h1 className="card-title">Portfolio Website</h1>
-                    <p className="card-subtitle">using html,css,javascript in recat framework</p>
+                    <p className="card-subtitle">using html,css,javascript in react framework</p>
                     <p className="card-info"> This website provides a comprehensive overview about me and my work. 
                     The site is fully responsive, ensuring an optimal user experience. Through this project, I demonstrated my 
                     proficiency in web development including HTML, CSS, JavaScript,
