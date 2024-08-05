@@ -186,7 +186,8 @@ a:hover {
 
 @media only screen and (max-width:450px){
     .header{
-        width:152vw;
+        width:130vw;
+        background-color: pink;
     }
     .headname{
         margin-left: 0px;
