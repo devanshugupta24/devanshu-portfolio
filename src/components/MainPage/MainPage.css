@@ -180,8 +180,9 @@ justify-content: space-between;
 
 @media (max-width: 1024px) {
     .photo {
-        max-width: 240px;
-        max-height: 240px;
+        max-width: 250px;
+        max-height: 250px;
+        margin-top:10%;
     }
 }
 
@@ -209,4 +210,38 @@ justify-content: space-between;
 .logo:hover {
     box-shadow: 0px 0px 10px cyan;
     transform: scale(1.15);
+}
+
+@media only screen and (max-width:750px){
+     .photo{
+        max-width: 190px;
+        max-height: 190px;
+        margin-top:19%;
+        margin-left:65%;
+     }
+
+     .info{
+        font-size: 20px;
+     }
+
+     .greet{
+        font-size: 30px;
+     }
+     .name{
+        font-size:30px;
+        margin-top: -5px;
+     }
+     .intro{
+        margin-left:50px;
+     }
+     .logo{
+        height:25px;
+        width:25px;
+        margin-top:177%;
+     }
+     .contacts{
+        margin-left:35px;
+ 
+     }
+
 }

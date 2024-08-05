@@ -205,3 +205,19 @@
         margin-left: 35%;
     }
 }
+
+@media only screen and (max-width:768px){
+     .c2{
+        margin-left:60px;
+     }
+     .card-title{
+        font-weight: 400;
+        font-size: 20px;
+     }
+     .card-subtitle{
+        font-size:15px;
+     }
+     .card-info{
+        font-size:13px;
+     }
+}
