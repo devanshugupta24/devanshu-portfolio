@@ -245,3 +245,9 @@ justify-content: space-between;
      }
 
 }
+
+@media only screen and (max-width:450px){
+    .info{
+        font-size:15px;
+    }
+}
