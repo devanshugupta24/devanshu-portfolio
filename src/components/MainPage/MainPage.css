@@ -212,7 +212,7 @@ justify-content: space-between;
     transform: scale(1.15);
 }
 
-@media only screen and (max-width:750px){
+@media only screen and (max-width:768px){
      .photo{
         max-width: 190px;
         max-height: 190px;
@@ -246,8 +246,35 @@ justify-content: space-between;
 
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:430px){
+    .intro{
+        margin-top:120px;
+        margin-left:22px;
+    }
     .info{
         font-size:15px;
+    }
+    .greet{
+        font-size:20px;
+    }
+    .name{
+        font-size:20px;
+        margin-top:-3px;
+        margin-left:10px;
+        line-height: 30px;
+    }
+    .photo{
+        height:100px;
+        width:100px;
+        margin-top:28%;
+        margin-left:67.5%;
+    }
+    .logo{
+        height:20px;
+        width:20px;
+        margin-top:153%;
+    }
+    .contacts{
+        margin-left:5px;
     }
 }
