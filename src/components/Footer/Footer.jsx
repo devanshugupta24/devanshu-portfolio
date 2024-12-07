@@ -7,20 +7,36 @@ export default function Footer() {
     <footer>
       <div className="footerContainer">
         <div className="socialIcons">
-          <a href="https://github.com/devanshugupta24" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/devanshugupta24"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img className="fa-brands" src="github (1).jpg" alt="GitHub" />
           </a>
-          <a href="https://www.instagram.com/devanshu_2402/" target="_blank" rel="noopener noreferrer">
-            <img className="fa-brands" src="instagram (1).jpg" alt="Instagram" />
+          <a
+            href="https://www.instagram.com/devanshu_2402/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="fa-brands"
+              src="instagram (1).jpg"
+              alt="Instagram"
+            />
           </a>
-          <a href="https://www.linkedin.com/in/devanshu-gupta24/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/devanshu-gupta24/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img className="fa-brands" src="linkedin (1).jpg" alt="LinkedIn" />
           </a>
         </div>
         <div className="details">
           <p>
-            Devanshu Gupta &nbsp; |&nbsp; &nbsp; guptadevanshu24@gmail.com &nbsp;
-            |&nbsp; &nbsp; 9142088391 &nbsp; |&nbsp;&nbsp; Kaimur, Bihar
+            Devanshu Gupta &nbsp; |&nbsp; &nbsp; guptadevanshu24@gmail.com
+            &nbsp; |&nbsp; &nbsp; 9142088391 &nbsp; |&nbsp;&nbsp; Kaimur, Bihar
           </p>
         </div>
         <div className="footerNav">
