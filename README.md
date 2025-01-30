@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 
 Click here to visit portfolio website
-[devanshugupta24.netlify.app](devanshugupta24.netlify.app)
+[devanshugupta24.netlify.app](https://devanshugupta24.netlify.app/))
