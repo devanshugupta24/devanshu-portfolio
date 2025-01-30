@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 
 
-open link = devanshugupta24.netlify.app
+[Click here to visit portfolio website](devanshugupta24.netlify.app)
